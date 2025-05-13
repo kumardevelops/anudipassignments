@@ -1,0 +1,29 @@
+    1. Write the HTML code to display an ordered list of the top 5 programming languages.
+
+    2. Create an ordered list where the list items are numbered using Roman numerals.
+
+    3. How do you start an ordered list from number 5 instead of 1?
+
+    4. Modify an ordered list so that it displays alphabetically (A, B, C...).
+
+    5. What will happen if you nest an ordered list inside another ordered list?
+
+    6. Create an unordered list of your 5 favorite fruits.
+
+    7. Change the bullet style of an unordered list to a square.
+
+    8. How can you nest an unordered list inside another list item?
+
+    9. What is the default bullet style of an unordered list in HTML?
+
+    10. Write an HTML code to create a multilevel unordered list with at least 2 levels.
+    
+    11. Create a definition list explaining three HTML tags: <p>, <br>, and <a>.
+
+    12. What are the tags used to define a definition list in HTML?
+
+    13. Write HTML code to create a glossary using a definition list.
+
+    14. Can a definition list contain nested lists? If yes, give an example.
+
+    15. How is a definition list different from an ordered or unordered list?

@@ -82,8 +82,11 @@ StyleCopReport.xml
 *.pgc
 *.pgd
 *.rsp
+<<<<<<< HEAD
 # but not Directory.Build.rsp, as it configures directory-level build defaults
 !Directory.Build.rsp
+=======
+>>>>>>> 6c01cb347ce15ae26c2f71adca262a789ca9f5ba
 *.sbr
 *.tlb
 *.tli
@@ -155,7 +158,10 @@ coverage*.info
 
 # NCrunch
 _NCrunch_*
+<<<<<<< HEAD
 .NCrunch_*
+=======
+>>>>>>> 6c01cb347ce15ae26c2f71adca262a789ca9f5ba
 .*crunch*.local.xml
 nCrunchTemp_*
 

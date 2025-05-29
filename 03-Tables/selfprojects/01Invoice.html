@@ -1,199 +1,190 @@
 <!DOCTYPE html>
 <html lang="en">
+	<head>
+		<meta charset="ITF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Invoice</title>
+		<style>
+			.border {
+				border: 3px solid black;
+				width: fit-content;
+				padding: 0.5rem;
+			}
+		</style>
+	</head>
 
-<head>
-    <meta charset="ITF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Invoice</title>
-    <style>
-        .border {
-            border: 3px solid black;
-            width: fit-content;
-            padding: 0.5rem;
-        }
-    </style>
-</head>
+	<body style="background: #faffeee9">
+		<h1>The Invoice for Rashmi's Company is given below :-</h1>
+		<h2>Customer Details</h2>
+		<p>
+			<strong>Name:</strong> Rashmi Kumari
+			<br />
+			<strong>Address :</strong> Sector 38, gurugram, Haryana, India
+			<br />
+			<strong>Phone :</strong> 934762398
 
-<body style="background: #faffeee9;">
-    <h1>The Invoice for Rashmi's Company is given below :-</h1>
-    <h2>Customer Details</h2>
-    <p>
-        <strong>Name:</strong> Rashmi Kumari
-        <br>
-        <strong>Address :</strong> Sector 38, gurugram, Haryana, India
-        <br>
-        <strong>Phone :</strong> 934762398
-        </br />
-        <strong>Email :</strong>
-        rashmik@protonmail.com
-    </p>
-    <hr style="border-top: 2px solid black;">
-    <br>
-    <div class="border">
-        <h2>INVOICE</h2>
-        <table style="text-align: left;">
-            <thead>
-                <tr>
-                    <th colspan="9">Date
-                        Issued.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                    </th>
-                    <th>Issued To.</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td colspan="9">15/5/2025</td>
-                    <td>Rashmi Kumari</td>
-                </tr>
-            </tbody>
-        </table>
-        <table style="text-align: left;">
-            <thead>
-                <tr>
-                    <th>Invoice No.</th>
-                    <th>&nbsp;</th>
-                    <th>&nbsp;</th>
-                    <th>&nbsp;</th>
-                    <th>Customer Address.</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>INV-20250515#1528</td>
-                    <th>&nbsp;</th>
-                    <th>&nbsp;</th>
-                    <th>&nbsp;</th>
-                    <td>Sector 38, gurugram, Haryana, India</td>
-                </tr>
-            </tbody>
-        </table>
-        <br>
-        <table border="1">
-            <thead>
-                <tr>
-                    <th>SL No.</th>
-                    <th>Customer Name</th>
-                    <th>Invoice No</th>
-                    <th>Service Description</th>
-                    <th>Date Issued</th>
-                    <th>Quantity</th>
-                    <th>Price</th>
-                    <th>Sub Total</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>1</td>
-                    <td rowspan="10" align="center">Rashmi Kumari</td>
-                    <td rowspan="10" align="center">INV-20250515#1528</td>
-                    <td>Logo Design</td>
-                    <td rowspan="10"></td>
-                    <td>1</td>
-                    <td>INR 2399</td>
-                    <td>INR 2399</td>
-                </tr>
-                <tr>
-                    <td>2</td>
-                    <td>Brand Kit</td>
-                    <td>1</td>
-                    <td>INR 5499</td>
-                    <td>INR 7898</td>
-                </tr>
-                <tr>
-                    <td>3</td>
-                    <td>UI Design for Landing Page</td>
-                    <td>1</td>
-                    <td>INR 11299</td>
-                    <td>INR 19,197</td>
-                </tr>
-                <tr>
-                    <td>4</td>
-                    <td>Logo Design</td>
-                    <td>1</td>
-                    <td>INR 4599</td>
-                    <td>INR 23,796</td>
-                </tr>
-                <tr>
-                    <td>5</td>
-                    <td>UI Design for Dashboard (including Sidebar, Tabs, and more)</td>
-                    <td>2</td>
-                    <td>INR 23,999</td>
-                    <td>INR 47,795</td>
-                </tr>
-                <tr>
-                    <td>6</td>
-                    <td>UI Design for Login/Signup Pages</td>
-                    <td>1</td>
-                    <td>INR 2399</td>
-                    <td>INR 50,194</td>
-                </tr>
-                <tr>
-                    <td>7</td>
-                    <td>UX Engineering</td>
-                    <td>1</td>
-                    <td>INR 48,599</td>
-                    <td>INR 98,793</td>
-                </tr>
-                <tr>
-                    <td>8</td>
-                    <td>Web Application Development (End to end)</td>
-                    <td>1</td>
-                    <td>INR 1,89,499</td>
-                    <td>INR 2,83,292</td>
-                </tr>
-                <tr>
-                    <td>9</td>
-                    <td>Web Application Testing (Automation+Manual)</td>
-                    <td>1</td>
-                    <td>INR 2,45,476</td>
-                    <td>INR 5,25,768</td>
-                </tr>
-                <tr>
-                    <td>10</td>
-                    <td>Final Deployment, Delivery, Corrections, And Handover</td>
-                    <td>1</td>
-                    <td>INR 1,00,000</td>
-                    <td>INR 6,28,768</td>
-                </tr>
-                <tr>
-                    <th colspan="7" rowspan="1" align="right">Tax (28% GST)</th>
-                    <td align="right">INR 1,76,055</td>
-                </tr>
-                <tr>
-                    <th colspan="7" align="right">Grand Total</th>
-                    <td align="right">INR 8,04,823</td>
-                </tr>
-            </tbody>
-        </table>
-        <br />
-        <br />
+			<strong>Email :</strong>
+			rashmik@protonmail.com
+		</p>
+		<hr style="border-top: 2px solid black" />
+		<br />
 
-        <table width="90%">
-            <thead>
-                <tr>
-                    <th align="left"><Strong>Payment Info:</Strong> </th>
-                    <th align="right"><Strong>Authorised Signature:</Strong> </th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>Bank Name: Amarical Express</td>
-                </tr>
-                <tr>
-                    <td>Account No: 45983476287456</td>
-                </tr>
-                <tr>
-                    <td>Account Holder Name: Abishek Kumar</td>
-                    <td rowspan="3" align="right">
-                        <strong>
-                            ABHISEK KUMAR
-                        </strong>
-                    </td>
-                </tr>
-                
-            </tbody>
-        </table>
-    </div>
-</body>
+		<!--Table Starting-->
+		<div class="border">
+			<h2>INVOICE</h2>
+			<table border="1" style="text-align: left" width="34%">
+				<thead>
+					<tr>
+						<th>Date Issued.</th>
+						<th>Issued To.</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>15/5/2025</td>
+						<td>Rashmi Kumari</td>
+					</tr>
+				</tbody>
+			</table>
+			<table style="text-align: left" width="40%">
+				<thead>
+					<tr>
+						<th>Invoice No.</th>
 
+						<th>Customer Address.</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>INV-20250515#1528</td>
+
+						<td>Sector 38, gurugram, Haryana, India</td>
+					</tr>
+				</tbody>
+			</table>
+			<br />
+			<table border="1">
+				<thead>
+					<tr>
+						<th>SL No.</th>
+						<th>Customer Name</th>
+						<th>Invoice No</th>
+						<th>Service Description</th>
+						<th>Date Issued</th>
+						<th>Quantity</th>
+						<th>Price</th>
+						<th>Sub Total</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>1</td>
+						<td align="center">Rashmi Kumari</td>
+						<td align="center">INV-20250515#1528</td>
+						<td>Logo Design</td>
+
+						<td>1</td>
+						<td>INR 2399</td>
+						<td>INR 2399</td>
+					</tr>
+					<tr>
+						<td>2</td>
+						<td>Brand Kit</td>
+						<td>1</td>
+						<td>INR 5499</td>
+						<td>INR 7898</td>
+					</tr>
+					<tr>
+						<td>3</td>
+						<td>UI Design for Landing Page</td>
+						<td>1</td>
+						<td>INR 11299</td>
+						<td>INR 19,197</td>
+					</tr>
+					<tr>
+						<td>4</td>
+						<td>Logo Design</td>
+						<td>1</td>
+						<td>INR 4599</td>
+						<td>INR 23,796</td>
+					</tr>
+					<tr>
+						<td>5</td>
+						<td>UI Design for Dashboard (including Sidebar, Tabs, and more)</td>
+						<td>2</td>
+						<td>INR 23,999</td>
+						<td>INR 47,795</td>
+					</tr>
+					<tr>
+						<td>6</td>
+						<td>UI Design for Login/Signup Pages</td>
+						<td>1</td>
+						<td>INR 2399</td>
+						<td>INR 50,194</td>
+					</tr>
+					<tr>
+						<td>7</td>
+						<td>UX Engineering</td>
+						<td>1</td>
+						<td>INR 48,599</td>
+						<td>INR 98,793</td>
+					</tr>
+					<tr>
+						<td>8</td>
+						<td>Web Application Development (End to end)</td>
+						<td>1</td>
+						<td>INR 1,89,499</td>
+						<td>INR 2,83,292</td>
+					</tr>
+					<tr>
+						<td>9</td>
+						<td>Web Application Testing (Automation+Manual)</td>
+						<td>1</td>
+						<td>INR 2,45,476</td>
+						<td>INR 5,25,768</td>
+					</tr>
+					<tr>
+						<td>10</td>
+						<td>Final Deployment, Delivery, Corrections, And Handover</td>
+						<td>1</td>
+						<td>INR 1,00,000</td>
+						<td>INR 6,28,768</td>
+					</tr>
+					<tr>
+						<th colspan="7" rowspan="1" align="right">Tax (28% GST)</th>
+						<td align="right">INR 1,76,055</td>
+					</tr>
+					<tr>
+						<th colspan="7" align="right">Grand Total</th>
+						<td align="right">INR 8,04,823</td>
+					</tr>
+				</tbody>
+			</table>
+			<br />
+			<br />
+
+			<table width="90%">
+				<thead>
+					<tr>
+						<th align="left"><strong>Payment Info:</strong></th>
+						<th align="right"><strong>Authorised Signature:</strong></th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>Bank Name: Amarical Express</td>
+					</tr>
+					<tr>
+						<td>Account No: 45983476287456</td>
+					</tr>
+					<tr>
+						<td>Account Holder Name: Abishek Kumar</td>
+						<td align="right">
+							<strong> ABHISEK KUMAR </strong>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+	</body>
 </html>

@@ -1,0 +1,86 @@
+<html>
+	<head>
+		<title>Html Forms</title>
+	</head>
+	<body>
+		<h1>Html forms</h1>
+		<h2>What is html forms?</h2>
+		<p>
+			Html Forms are a way to collect data from the user in a organized manner.
+		</p>
+
+		<h2>Html form attributes -</h2>
+
+		<ol>
+			<li>Method</li>
+			<li>URL</li>
+			<li>name</li>
+		</ol>
+
+		<h2>Sample form of User Signup Page-</h2>
+
+		<form>
+			User Name:
+			<input
+				type="text"
+				name="username"
+				placeholder="Enter your username"
+				maxlength="12"
+				required />
+			<br />
+
+			Email ID:
+			<input
+				type="text"
+				name="emailid"
+				placeholder="Enter your emailid"
+				maxlength="12"
+				required />
+			<br />
+
+			Home Address:
+			<input
+				type="text"
+				name="homeaddress"
+				placeholder="Enter your home address"
+				maxlength="12"
+				required />
+			<br />
+
+			Password:
+			<input
+				type="password"
+				name="password"
+				placeholder="Enter your password"
+				maxlength="12" />
+			<br />
+			<br />
+			<input type="button" value="Sign Up" />
+		</form>
+
+		<br />
+
+		<h2>Login form usng table-</h2>
+		<form>
+			<table>
+				<tr>
+					<th>Username:</th>
+					<td>
+						<input type="text" name="username" plaseholder="username" />
+					</td>
+				</tr>
+				<tr>
+					<th>Password:</th>
+					<td>
+						<input type="password" name="password" plaseholder="password" />
+					</td>
+				</tr>
+				<tr>
+					<td colspan="2" align="center">
+						<input type="button" value="Login" />
+					</td>
+				</tr>
+			</table>
+		</form>
+	</body>
+</html>

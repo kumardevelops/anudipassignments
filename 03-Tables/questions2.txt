@@ -1,0 +1,12 @@
+1) Create an HTML table to display the marks of students in three subjects. 
+The table should include:
+
+2) A header row with the columns: Roll No, Name, Maths, Science, English, Total Marks
+
+3) Add data for at least 3 students.
+
+4) Calculate Total Marks manually and include it in the table.
+
+5) Add a border to the table.
+
+6) Center-align the headings and right-align the marks.
